@@ -7,7 +7,7 @@ interface EducationProps {
 const Education = ({ data }: EducationProps) => {
     return (
         <>
-            <h3>Education</h3>
+            <h3>Educação</h3>
             <article className="Education">
                 {
                     data.map((entity, index) => (

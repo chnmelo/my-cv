@@ -7,7 +7,7 @@ interface ExperienceProps {
 const Experience = ({ data }: ExperienceProps) => {
     return (
         <>
-            <h3>Experience</h3>
+            <h3>Experiência</h3>
             <article className="Experience">
                 {
                     data.map((work, index) => (

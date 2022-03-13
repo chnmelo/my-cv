@@ -101,8 +101,8 @@ const Resume = () => (
                 <Education data={data.education} />
             </section>
             <section className="Resume-sidebar">
-                <Skills data={data.skills.filter(skill => skill.current)} title="Current Stack" />
-                <Skills data={data.skills.filter(skill => !skill.current)} title="I Have Used" />
+                <Skills data={data.skills.filter(skill => skill.current)} title="Usando Atualmente" />
+                <Skills data={data.skills.filter(skill => !skill.current)} title="Eu Já Usei" />
                 <Languages data={data.languages} />
                 <Awards data={data.awards} />
                 <Contact data={data.contact} />
